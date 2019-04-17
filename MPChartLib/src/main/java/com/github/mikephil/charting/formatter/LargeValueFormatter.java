@@ -23,7 +23,7 @@ public class LargeValueFormatter extends ValueFormatter
     private String mText = "";
 
     public LargeValueFormatter() {
-        mFormat = new DecimalFormat("###E00");
+        mFormat = new DecimalFormat("###.#E00");
     }
 
     /**
